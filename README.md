@@ -1,4 +1,4 @@
-# Smoking-Prevalence-Analysis
+# Public-Health-Analysis
 
 ![](https://github.com/Toyyibahh/Smoking-Prevalence-Analysis/blob/main/ChatGPT%20Image%20Sep%204%2C%202026%2C%2008_15_32%20PM.png)
 
