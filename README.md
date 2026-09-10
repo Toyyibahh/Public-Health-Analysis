@@ -15,36 +15,37 @@ The analysis focuses on three areas:
 - How smoking prevalence differed across ethnic groups.
 - Whether the level of improvement was consistent across groups.
 
-The findings are then considered from a public-health perspective, particularly how disaggregated data can support the identification of groups that may warrant further investigation when planning prevention and smoking-cessation strategies.
-
 ## Skill/Concept Demonstrated:
 - Data Cleaning
 - Power Query
 - Pivot Table
 - DAX measures
-- KPI development
+- KPIs development
 - Problem Solving technique
 - Dashboard Wireframing and Design
 - Data Visualization
 
 ## KPIs:
 1. Smoking prevalence 2012
-2. Smoking prevalence — 2012
+2. Smoking prevalence 2019
 3. Overall Change
 
 ## Key insights: 
 1. Overall Trend Analysis
 2. 2019 Ethnic Comparison 
-3. Change in Smoking Prevalence by Ethnic Group
+3. Ethnic prevalence trends over time
 
 ## Visualization:
 ![](https://github.com/Toyyibahh/Smoking-Prevalence-Analysis/blob/main/Screenshot%202026-09-08%20062817.png)
 
  ## Analysis:
  #### KPIs
-Overall adult smoking prevalence in England decreased from 19.32% in 2012 to 13.88% in 2019, reflecting a decline of 5.44 percentage points over the period. This suggest a substantial progress in reducing smoking prevalence in England between 2012 and 2019.
-The analysis goes further by examining whether this improvement was consistent across ethnic groups. The Mixed ethnic group recorded the highest smoking prevalence in 2019 at 19.53%. And the difference between the defined ethnic groups included in the analysis demonstrates that the overall national figure of 13.88% does not represent every ethnic group equally.
-Similarly, to understand whether progress was consistent, I compared the 2012 and 2019 prevalence for each defined ethnic group. They all experienced a decline between 2012 and 2019, however, the size of the decline was not the same across groups.
+The overall adult smoking prevalence in England decreased from 19.32% in 2012 to 13.88% in 2019, reflecting a decline of 5.44 percentage points over the period. This suggest a substantial progress in reduction of smoking prevalence in England between 2012 and 2019.
+
+The analysis goes further by examining whether this improvement was consistent across ethnic groups in the year 2019. The Mixed ethnic group recorded the highest smoking prevalence at the percentage point of 19.53%. And the difference between the defined ethnic groups included in the analysis shows that the overall national figure of 13.88% reported in the year does not represent every ethnic group equally. The magnitude of change varied among them. 
+
+Similarly, to understand whether progress was consistent, I compared the prevalence for each defined ethnic group starting from the year 2012 to 2019. They all experienced a decline, however, the size of the decline was not the same across groups.
+This shows that indeed there is overall improvement, but it did not occur at the same rate across groups.
 
 #### Insights
 
@@ -53,7 +54,9 @@ The prevalence in adult smoking in England started with a population percentage 
 This indicates substantial progress at the population level.
 
 ### 2019 Ethnic Comparison  
-Relying only on the national average could hide meaningful differences between population groups. As seen with 2019 collected data. In 2019, smoking prevalence ranged from 6.74% among the Chinese group to 19.53% among the Mixed group.
+Measuring only the overall population rate may conceal differences between demographic groups. The 2019 analysis showed substantial differences in smoking prevalence between the defined ethnic groups.
+
+The Mixed ethnic group recorded the highest prevalence at 19.53%, while the Chinese ethnic group recorded the lowest at 6.74% among the defined groups included in the comparison.
 
 ### Ethnic Trends over Time
 Every defined ethnic group experienced a decline between 2012 and 2019, but the size of the reduction differed. The Mixed group remained comparatively high among the defined ethnic-group  with prevalence population of 19.53% in 2019. This makes the group particularly relevant for further public-health investigation.
@@ -67,11 +70,13 @@ The analysis demonstrate why disaggregated analysis is important in public-healt
 Overall improvement does not necessarily mean that every population group is experiencing the same level of improvement. These differences may help public-health planners identify population groups that warrant further investigation when considering smoking-prevention and cessation strategies.
 
 There is an overall smoking prevalence declined from 19.32% to 13.88%, representing a reduction of 5.44 percentage points from the year 2012 to 2019, however, the Mixed group had the highest defined-group prevalence at 19.53%, while the Chinese group had the lowest at 6.74% in the year 2019. Groups with comparatively high prevalence may require closer examination of factors such as:
--Access to smoking-cessation services
--Social and economic circumstances
--Behavioural patterns
--Cultural factors
--Awareness and uptake of cessation support
+
+- Access to smoking-cessation services
+- Social and economic circumstances
+- Behavioural patterns
+- Cultural factors
+- Awareness and uptake of cessation support
+
 However, these factors are not contained in the dataset, so this analysis does not attempt to explain the causes of the differences. The data identifies patterns and disparities, rather than proving why those disparities exist.
 
 ### Key Recommendations:
